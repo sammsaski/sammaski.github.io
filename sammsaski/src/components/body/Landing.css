@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url('../../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf')
+}
+
+* {
+    background-color: black;
+    color: white;
+}
+
+#landing-container {
+    font-family: 'Work Sans Bold';
+    font-size: 80px;
+}
+
+#summary {
+    font-size: 20px;
+}
+
+#thankyou {
+    font-size: 20px;
+}
