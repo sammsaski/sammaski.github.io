@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url('../../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf')
+}
+
+* {
+    background-color: black;
+    color: white;
+}

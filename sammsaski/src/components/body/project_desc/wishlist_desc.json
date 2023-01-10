@@ -1,0 +1,6 @@
+{
+    "data": "The goal of this project was to familiarize myself with the basics of GoLang. In doing so, I wanted to build out a simple Restful API using some of Go's premiere built-in features. The application is able to effectively create, retrieve, update, and delete elements in the wishlist.",
+    "link": "https",
+    "status": "Completed",
+    "skills": ["Go", "React.js", "Restful APIs"]
+}

@@ -1,0 +1,6 @@
+{
+    "data": "A mobile app that utilizes  convolutional neural networks to recognize buildings on the Pomona College campus.",
+    "link": "https",
+    "status": "In-Progress",
+    "skills": ["Python", "React Native", "TensorFlow", "TensorFlow.js", "Computer Vision"]
+}
