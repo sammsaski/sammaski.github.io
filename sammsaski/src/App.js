@@ -16,8 +16,6 @@ function App() {
       <div>
         <ProjectsPage></ProjectsPage>
       </div>
-      
-      <div className='vh-100'></div>
     </div>
   );
 }
