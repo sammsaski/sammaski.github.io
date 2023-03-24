@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* background-color: #99B898; */
+  /* background-color: #e0e2dc; */
+  /* background-color: #e4e3e2; */
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +38,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(at 3% 99%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 10% 0%, 
+                radial-gradient(at 97% 8%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 0% 30%, 
+                radial-gradient(at 79% 82%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 40% 0%,
+                radial-gradient(at 96% 10%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 42% 20%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 25% 80%,
+                radial-gradient(at 4% 49%, rgb(228, 227, 226) 0px, transparent 50%) repeat scroll 65% 10%, rgba(0, 0, 0, 0) radial-gradient(at 57% 33%, rgb(228, 227, 226) 0px, #848884 20%) repeat scroll 15% 40%;
+}
+
+/* The collapsable links that can be selected to expand more information.*/
+#cl {
+  color: black;
+  text-decoration: none;
+}
+
+#cont {
+  padding: 12em;
+}
+
+
+#desc-cont {
+  width: 50%;
+  height: 50%;
+}
+
+#title {
+
+}
+
+#title:hover {
+  font-style: italic;
+}
+
+#section {
+  margin-top: 1em;
+  
+}
+
+#section-header {
+  font-size: 9em;
+}
+
+#section-header:hover {
+  font-style: italic;
 }
