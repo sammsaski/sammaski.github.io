@@ -1,0 +1,7 @@
+#work-header {
+    font-size: 9em;
+}
+
+#work-header:hover {
+    font-style: italic;
+}
