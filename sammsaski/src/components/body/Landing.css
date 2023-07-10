@@ -11,12 +11,23 @@
 #landing-container {
     font-family: 'Work Sans Bold';
     font-size: 80px;
+    border: 0.1px solid #5c5c5c;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    height: 50%;
 }
 
-#summary {
-    font-size: 20px;
+#landing-text {
+    padding-top: 20%;
+    padding-bottom: 25%;
 }
 
-#thankyou {
-    font-size: 20px;
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
 }

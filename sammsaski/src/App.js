@@ -8,14 +8,7 @@ import { ProjectsPage } from './components/body/ProjectsPage';
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <div className='d-flex align-items-center vh-100'>
-        <Landing></Landing>
-      </div>
-      
-      <div>
-        <ProjectsPage></ProjectsPage>
-      </div>
+      <Landing></Landing>
     </div>
   );
 }
