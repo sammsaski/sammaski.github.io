@@ -3,20 +3,30 @@
     src: url('../../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf')
 }
 
-* {
-    background-color: black;
-    color: white;
+#landing-container {
+    height: 90vh;
 }
 
-#landing-container {
+
+#text-container {
+    padding-top: 10%;
+}
+
+#title {
     font-family: 'Work Sans Bold';
     font-size: 80px;
+    font-style: italic;
+    color: black;
+    height: 110px;
 }
 
 #summary {
     font-size: 20px;
+    color: black;
 }
+
 
 #thankyou {
     font-size: 20px;
+    color: black;
 }
