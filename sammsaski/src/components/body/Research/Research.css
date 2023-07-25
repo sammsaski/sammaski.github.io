@@ -1,0 +1,74 @@
+#container {
+    height: 100vh;
+}
+
+#ss-container {
+    height: 100vh;
+}
+
+#ss-container-row {
+    height: 100vh;
+    align-items: center;
+}
+
+#left-hash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left-hash-title {
+    font-size: 20px;
+    /* line-height: 90%; */
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5%;
+    /* font-style: italic; */
+    color: black;
+}
+
+#left-hash-text {
+    font-size: 40px;
+    justify-content: center;
+    text-align: left;
+    line-height: 100%;;
+    font-weight: bold;
+}
+
+#ss-list {
+    color: black;
+    height: 75%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: start;
+}
+
+#list-item {
+    font-size: 20px;
+}
+
+#right-hash {
+    display: block;
+    align-items: center;
+    justify-self: center;
+}
+
+#right-hash-title {
+    color: black;
+    text-align: end;
+    font-size: 20px;
+}
+
+#right-hash-rs-container {
+    /* width: 50%; */
+    line-height: 200%;
+}
+
+#right-hash-research-subject {
+    color: black;
+    text-align: right;
+    font-size: 35px;
+    /* font-weight: bold; */
+    font-style: italic;
+}

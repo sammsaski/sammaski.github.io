@@ -1,0 +1,15 @@
+#ss-container {
+    height: 400px;
+}
+
+#ss-title {
+    font-size: 60px;
+    font-style: italic;
+    color: black;
+    margin-top: 60px;
+}
+
+#publication {
+    color: black;
+    margin-top: 60px;
+}
