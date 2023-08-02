@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@font-face {
+    font-family: "New York";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/newyork/newyorkdisplay-regular-webfont.woff");
+  }
+
 #about-container {
     height: 600px;
     background-color: white;
@@ -6,6 +15,7 @@
 }
 
 #about-left-hash-text {
+    font-family: 'Montserrat';
     font-size: 20px;
     color: black;
     text-align: left;
@@ -22,6 +32,7 @@
 }
 
 #about-right-hash {
+    font-family: 'New York';
     display: flex;
     flex-direction: column;
     justify-content: space-between;

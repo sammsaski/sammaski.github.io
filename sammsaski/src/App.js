@@ -10,18 +10,18 @@ import { TeachingAwardsHonors } from './components/body/Teaching+Awards+Honors/T
 import { AboutMe } from './components/body/AboutMe/AboutMe';
 import { Footer } from './components/footer/Footer';
 import { CustomCursor } from './components/custom_cursor/CustomCursor';
+import { CVContact } from './components/body/CV+Contact/CVContact';
 
 function App() {
   return (
     <div className="App">
       <CustomCursor/>
-      <Heading/>
       <Landing />
       <Research />
       <Publications />
       <TeachingAwardsHonors />
       <AboutMe />
-      <Footer />
+      <CVContact />
     </div>
   );
 }
