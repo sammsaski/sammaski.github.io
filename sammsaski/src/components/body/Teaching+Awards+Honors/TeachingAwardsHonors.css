@@ -1,9 +1,27 @@
-#ss-container {
-    height: 400px;
+#tah-container {
+    height: 600px;
+    background-color: white;
+    z-index: 1;
 }
 
-#ss-title {
+#tah-left-hash-title {
     font-size: 60px;
-    font-style: italic;
+    font-weight: bold;
     color: black;
+    line-height: 100%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#tah-right-hash {
+    margin-top: 200px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#tah-right-hash-text {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
 }

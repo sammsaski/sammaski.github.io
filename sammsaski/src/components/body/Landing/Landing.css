@@ -8,11 +8,11 @@
 }
 
 
-#text-container {
+#landing-text-container {
     padding-top: 10%;
 }
 
-#title {
+#landing-title {
     font-family: 'Work Sans Bold';
     font-size: 80px;
     font-style: italic;
@@ -20,7 +20,7 @@
     height: 110px;
 }
 
-#summary {
+#landing-summary {
     font-size: 20px;
     color: black;
 }

@@ -8,16 +8,20 @@ import { Research } from './components/body/Research/Research';
 import { Publications } from './components/body/Publications/Publications';
 import { TeachingAwardsHonors } from './components/body/Teaching+Awards+Honors/TeachingAwardsHonors';
 import { AboutMe } from './components/body/AboutMe/AboutMe';
+import { Footer } from './components/footer/Footer';
+import { CustomCursor } from './components/custom_cursor/CustomCursor';
 
 function App() {
   return (
     <div className="App">
+      <CustomCursor/>
       <Heading/>
       <Landing />
       <Research />
       <Publications />
       <TeachingAwardsHonors />
       <AboutMe />
+      <Footer />
     </div>
   );
 }

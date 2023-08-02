@@ -1,0 +1,22 @@
+#footer-container {
+    width: 100%;
+    font-size: 14px;
+}
+
+#footer-text {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer-cv-button {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer-contact-button {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

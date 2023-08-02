@@ -1,9 +1,47 @@
-#ss-container {
-    height: 400px;
+#about-container {
+    height: 600px;
+    background-color: white;
+    z-index: 2;
+    padding-top: 100px;
 }
 
-#ss-title {
-    font-size: 60px;
+#about-left-hash-text {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    line-height: 35px;
+    margin-top: 100px;
+}
+
+#about-left-hash-add-text {
+    font-size: 20px;
     font-style: italic;
+    color: black;
+    text-align: left;
+    line-height: 35px;
+}
+
+#about-right-hash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-right-hash-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 60px;
+}
+
+#about-right-expand-button {
+    margin-bottom: 50px;
+}
+
+
+.dotted-underline {
+    text-decoration: underline red;
     color: black;
 }

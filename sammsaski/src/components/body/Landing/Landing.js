@@ -9,9 +9,9 @@ import './Landing.css';
 export function Landing() {
     return (
         <div id='landing-container' className='row justify-content-center'>
-            <div id='text-container' className='col-11 border-top border-dark border-bottom border-dark'>
-                <div id='title' className='' >samuel sasaki</div>
-                <div id='summary' className=''>
+            <div id='landing-text-container' className='col-12 border-top border-dark border-bottom border-dark'>
+                <div id='landing-title' className='' >samuel sasaki</div>
+                <div id='landing-summary' className=''>
                     driven by systematic thinking.
                 </div>
             </div>
