@@ -3,7 +3,14 @@
     src: url('../../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf')
 }
 
-* {
-    background-color: black;
-    color: white;
+#header-container {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#text {
+    color: black;
 }

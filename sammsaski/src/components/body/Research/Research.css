@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@font-face {
+    font-family: "New York";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/newyork/newyorkdisplay-regular-webfont.woff");
+  }
+
+#research-container {
+    height: 100vh;
+}
+
+#research-subsection-container {
+    height: 100vh;
+}
+
+#research-subsection-container-row {
+    height: 100vh;
+    align-items: center;
+}
+
+#research-left-hash {
+    font-family: 'New York';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#research-left-hash-title {
+    font-size: 20px;
+    /* line-height: 90%; */
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5%;
+    /* font-style: italic; */
+    color: black;
+}
+
+#research-left-hash-text {
+    font-size: 40px;
+    justify-content: center;
+    text-align: left;
+    line-height: 100%;;
+    font-weight: bold;
+}
+
+#research-right-hash {
+    font-family: 'Montserrat';
+    display: block;
+    align-items: center;
+    justify-self: center;
+}
+
+#research-right-hash-title {
+    color: black;
+    text-align: end;
+    font-size: 20px;
+}
+
+#research-right-hash-container {
+    /* width: 50%; */
+    line-height: 200%;
+}
+
+#right-hash-research-subject {
+    color: black;
+    text-align: right;
+    font-size: 35px;
+    /* font-weight: bold; */
+    font-style: italic;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+#cv-contact-container {
+    font-family: 'Montserrat';
+    height: calc(100vh - 600px);
+    width: 100%;
+    z-index: 4;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-content: center;
+}
+
+#cv-contact-left-hash {
+    
+}
+
+#cv-contact-left-hash-title {
+    color: black;
+    text-align: left;
+    font-size: 100px;
+}
+
+#cv-contact-left-hash-title:hover {
+    font-style: italic;
+}
+
+#cv-contact-middle-hash {
+    color: black;
+    font-size: 21px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#cv-contact-right-hash {
+    color: black; 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cv-contact-right-hash-text {
+    
+}
+
+#contact-title {
+    line-height: 100px;
+    font-size: 100px;
+    color: black;
+}
