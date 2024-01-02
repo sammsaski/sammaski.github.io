@@ -7,52 +7,48 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/newyork/newyorkdisplay-regular-webfont.woff");
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 #about-container {
-    height: 600px;
+    height: 100vh;
     background-color: white;
-    z-index: 2;
-    padding-top: 100px;
+    z-index: 0;
 }
 
-#about-left-hash-text {
+#about-subcontainer {
+    height: 80vh;
+    align-items: center;
+}
+
+#about-left {
+    padding-top: 15vh;
+}
+
+#about-right {
+    padding-top: 15vh;
+}
+
+#about-right-title {
     font-family: 'Montserrat';
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    line-height: 35px;
-    margin-top: 100px;
-}
-
-#about-left-hash-add-text {
-    font-size: 20px;
-    font-style: italic;
-    color: black;
-    text-align: left;
-    line-height: 35px;
-}
-
-#about-right-hash {
-    font-family: 'New York';
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#about-right-hash-title {
-    font-size: 60px;
-    font-weight: bold;
-    color: black;
+    font-size: 50px;
     text-align: center;
-    line-height: 100px;
-    margin-top: 60px;
-}
-
-#about-right-expand-button {
-    margin-bottom: 50px;
-}
-
-
-.dotted-underline {
-    text-decoration: underline red;
     color: black;
+}
+
+#about-text {
+    font-family: 'Poppins';
+    color: black;
+    font-size: 25px;
+    /* font-style: italic; */
+    text-align: left;
+}
+
+#about-border-bottom {
+    border-bottom: 0.5px solid black;
+}
+
+#about-border-bottom-text {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Rampart One';
 }
