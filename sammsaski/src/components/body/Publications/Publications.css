@@ -8,27 +8,26 @@
   }
 
 #pub-container {
-    height: 600px;
+    height: 100vh;
     background-color: white;
     z-index: 0;
 }
 
-#pub-right-hash-title {
-    font-family: 'New York';
-    font-size: 60px;
-    font-weight: bold;
+#pub-subcontainer {
+    height: 60vh;
+    align-items: center;
+}
+
+#pub-right-title {
+    font-family: 'Montserrat';
+    font-size: 50px;
     text-align: center;
     color: black;
-    line-height: 100px;
-    margin-top: 200px;
 }
 
 #publications {
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
     color: black;
     font-size: 25px;
-    line-height: 100px;
     font-style: italic;
-    margin-top: 200px;
-    margin-right: 100px;
 }

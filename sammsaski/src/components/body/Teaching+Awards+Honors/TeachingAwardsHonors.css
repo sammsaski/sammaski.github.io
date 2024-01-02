@@ -8,31 +8,52 @@
   }
 
 #tah-container {
-    height: 600px;
+    height: 100vh;
     background-color: white;
-    z-index: 1;
+    z-index: 0;
 }
 
-#tah-left-hash-title {
-    font-family: 'New York';
-    font-size: 60px;
-    font-weight: bold;
+#tah-subcontainer {
+    height: 60vh;
+    align-items: center;
+}
+
+#tah-left {
+    padding-top: 15vh;
+}
+
+#tah-left-title {
     color: black;
-    line-height: 100%;
+    font-size: 50px;
     text-align: left;
-    margin-left: 100px;
-    margin-top: 200px;
-}
-
-#tah-right-hash {
     font-family: 'Montserrat';
-    margin-top: 200px;
-    text-align: right;
-    padding-right: 50px;
 }
 
-#tah-right-hash-text {
+#tah-right {
+    text-align: right;
+    padding-top: 15vh;
+}
+
+#tah-right-title {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-align: center;
     color: black;
-    font-size: 20px;
+}
+
+#tah-right-text {
+    font-family: 'Poppins';
+    color: black;
+    font-size: 25px;
     font-style: italic;
+}
+
+#tah-border-bottom {
+    border-bottom: 0.5px solid black;
+}
+
+#tah-border-bottom-text {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Rampart One';
 }
