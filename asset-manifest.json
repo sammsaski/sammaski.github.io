@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e56eab2f.css",
-    "main.js": "/static/js/main.9dd1c5f7.js",
+    "main.css": "/static/css/main.bd2dc83f.css",
+    "main.js": "/static/js/main.0cdb080b.js",
     "static/js/787.1e740dcf.chunk.js": "/static/js/787.1e740dcf.chunk.js",
+    "static/media/headshot.jpg": "/static/media/headshot.024d43fddf02d41e74da.jpg",
     "static/media/WorkSans-ExtraBold.ttf": "/static/media/WorkSans-ExtraBold.d221515a328f2d7c21c7.ttf",
-    "static/media/SamuelSasaki-Resume.pdf": "/static/media/SamuelSasaki-Resume.e4921fcdc670b5d72db1.pdf",
+    "static/media/SamuelSasaki-Resume.pdf": "/static/media/SamuelSasaki-Resume.1529f1d66a3e70905b39.pdf",
     "index.html": "/index.html",
-    "main.e56eab2f.css.map": "/static/css/main.e56eab2f.css.map",
-    "main.9dd1c5f7.js.map": "/static/js/main.9dd1c5f7.js.map",
+    "main.bd2dc83f.css.map": "/static/css/main.bd2dc83f.css.map",
+    "main.0cdb080b.js.map": "/static/js/main.0cdb080b.js.map",
     "787.1e740dcf.chunk.js.map": "/static/js/787.1e740dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e56eab2f.css",
-    "static/js/main.9dd1c5f7.js"
+    "static/css/main.bd2dc83f.css",
+    "static/js/main.0cdb080b.js"
   ]
 }
