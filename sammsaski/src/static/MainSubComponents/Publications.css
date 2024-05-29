@@ -1,0 +1,58 @@
+.publications-container {
+  width: 100%;
+}
+
+.publications-entry {
+  text-align: start;
+  /* font-family: "Space Grotesk"; */
+  font-family: "Jost";
+
+  /* font-size: 1.333rem; */
+  /* padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid white; */
+  /* border-bottom: 0.5px solid white; */
+  width: 100%;
+}
+
+/* CSS FOR A SINGLE PUBLICATION ENTRY i.e. functional component PublicationEntry */
+.publication-entry-container {
+  width: 100%;
+  /* border: 1px solid white; */
+  /* border-top: 1px solid white; */
+  /* border-bottom: 1px solid white; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  font-size: 1.333rem;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+
+.publication-entry-main-subcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.publication-entry-title {
+  width: 80%;
+  /* border: 1px solid purple; */
+}
+
+.publication-entry-info {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.publication-entry-authors {
+  padding-top: 10px;
+}
+
+.publication-entry-details {
+  padding-top: 15px;
+  font-size: 1rem;
+}

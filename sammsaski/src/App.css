@@ -1,6 +1,27 @@
 .App {
   text-align: center;
-  cursor: none;
+  height: 100vh;
+  /* background-color: black; */
+  /* background-color: white; */
+  background-color: #ddd;
+
+  /* variables */
+  --text-color: #282828;
+  color: var(--text-color);
+}
+
+.body-container {
+  height: calc(100vh - 115px);
+  display: grid;
+  grid-gap: 1rem;
+  /* grid-template-columns: 4fr 5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "sidebar main"
+    "title main"; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  grid-template-areas: "main main" "section-header title";
 }
 
 .App-logo {

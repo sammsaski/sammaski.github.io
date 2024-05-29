@@ -1,0 +1,16 @@
+.section-header-container {
+  grid-area: section-header;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 50px;
+  padding-bottom: 50px;
+
+  /* text */
+  /* color: white; */
+  /* font-size: 4.209rem; */
+  font-size: 5.61rem;
+  font-family: "Sora";
+  font-weight: 900;
+  font-style: italic;
+}

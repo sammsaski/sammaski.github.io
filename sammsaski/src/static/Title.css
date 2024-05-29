@@ -1,0 +1,37 @@
+.title-container {
+  grid-area: title;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  /* Text */
+  /* font-size: 4.209rem; */
+  font-size: 3.157rem;
+  /* font-family: "Work Sans"; */
+  /* font-family: "Fahkwang"; */
+  /* font-family: "DM Sans"; */
+  font-family: "Poppins";
+  /* font-family: "Sora"; */
+  /* font-family: "Jost"; */
+  /* font-family: "Montserrat"; */
+  line-height: 100%;
+
+  /* font-weight: 200; */
+  font-weight: 300;
+  /* font-weight: 400; */
+  /* font-style: italic; */
+
+  /* color: white; */
+  /* color: var(--text-color); */
+
+  text-align: start;
+  letter-spacing: -3px;
+  /* letter-spacing: -2px; */
+
+  /* Formatting */
+  padding-left: 50px;
+  /* padding-bottom: 50px; */
+  /* padding-bottom needs to be equivalent to the padding-bottom in Main so that they lineup. */
+  padding-bottom: 50px;
+}
