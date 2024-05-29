@@ -1,6 +1,0 @@
-{
-    "data": "A web application designed to allow users to create customized real estate related documents as PDFs via autofilling information through the use of a form.",
-    "link": "",
-    "status": "In-Progress",
-    "skills": ["Python", "React.js", "Django"]
-}

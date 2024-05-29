@@ -1,0 +1,144 @@
+/* .sidebar-container {
+  border: 1px solid black;
+  grid-area: sidebar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.option {
+  font-size: 5.61rem;
+  font-family: "DM Sans";
+  font-weight: 200;
+  color: white;
+  border: 1px solid red;
+  width: 100%;
+  padding-top: 10px;
+  height: 100px;
+}
+
+.option-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "dot-home home"
+    "dot-pubs pubs"
+    "dot-projects projects"
+    "dot-service service"
+    "dot-honors honors"
+    "dot-about about";
+  border: 1px solid purple;
+}
+
+.dot {
+  align-self: center;
+  top: 100px;
+  left: 0;
+  transition: top 0.3s ease;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot-home {
+  grid-area: dot-home;
+}
+
+.dot-pubs {
+  grid-area: dot-pubs;
+}
+
+.dot-projects {
+  grid-area: dot-projects;
+}
+
+.dot-service {
+  grid-area: dot-service;
+}
+
+.dot-honors {
+  grid-area: dot-honors;
+}
+
+.dot-about {
+  grid-area: dot-about;
+}
+
+.home {
+  grid-area: home;
+}
+
+.pubs {
+  grid-area: pubs;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.service {
+  grid-area: service;
+}
+
+.honors {
+  grid-area: honors;
+}
+
+.about {
+  grid-area: about;
+} */
+
+.sidebar-container {
+  position: relative; /* Ensure dot's positioning is relative to this container */
+  /* border: 1px solid black; */
+  grid-area: sidebar;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  padding-left: 50px;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column; /* Align options vertically */
+  /* align-items: center; */
+  align-items: flex-start;
+  gap: 1rem; /* Adjust spacing as needed */
+  /* border: 1px solid green; */
+}
+
+.dot {
+  position: absolute;
+  /* left: 15px; */
+  transition: transform 0.5s ease; /* Animate the transform change */
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.option {
+  font-size: 4.209rem;
+  font-family: "DM Sans";
+  font-weight: 200;
+  color: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: 10px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  height: 100px;
+  text-align: start;
+}
+
+.option:hover {
+  cursor: default; /* TODO: change this */
+  /* font-style: italic;
+  font-weight: 500; */
+  /* border-bottom: 1px solid white; */
+}

@@ -1,0 +1,85 @@
+{
+  "intro": "Thank you for your interest in my published works.",
+  "publications": [
+    {
+      "title": "My first publication: this is a test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "2022",
+      "details": "Here are a bunch of details."
+    },
+    {
+      "title": "My second publication: this is another test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "2021",
+      "details": ""
+    },
+    {
+      "title": "My first publication: this is a test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "2023",
+      "details": ""
+    },
+    {
+      "title": "My second publication: this is another test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "2024",
+      "details": ""
+    },
+    {
+      "title": "My first publication: this is a test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "",
+      "details": ""
+    },
+    {
+      "title": "My second publication: this is another test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "",
+      "details": ""
+    },
+    {
+      "title": "My first publication: this is a test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "",
+      "details": ""
+    },
+    {
+      "title": "My second publication: this is another test",
+      "authors": ["Samuel Sasaki"],
+      "extra": "",
+      "conference": "[preprint]",
+      "arxiv": "",
+      "github": "",
+      "year": "",
+      "details": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "college": "Pomona College",
+      "gpa": "3.63",
+      "major": "Computer Science, Mathematics",
+      "extras": "4-year Men's Water Polo Athlete, 2022 Team Captain, 2021 DIII National Champion, 3x SCIAC Regular Season Champion, 2x SCIAC Tournament Champion, 3x First-Team All SCIAC, 2022 Offensive Player of the Year"
+    },
+
+    {
+      "college": "Vanderbilt University",
+      "gpa": "4.0",
+      "major": "Computer Science",
+      "extras": "Treasurer of the Computer Science Graduate Student Association, Vanderbilt Men's Club Water Polo"
+    }
+  ],
+  "about": "I have just under a year of working experience as a software engineer at Elementary Robotics where I spent time on the Edge Team. My contributions were centered around advancing the simulated environment within which product testing took place; as well as DevOps-adjacent tasks such as developing scripts that enabled easier and more effective testing sequences and engineering CI/CD pipelines with greater coverage. In essence, I helped allow a more reliable development and delivery of the product to the customer."
+}

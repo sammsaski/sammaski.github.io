@@ -1,0 +1,27 @@
+.about-education-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  text-align: left;
+  font-family: "Fahkwang";
+  font-weight: 400;
+  font-size: 1.777rem;
+}
+
+.education-container {
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 50px;
+}
+
+.education-entry-container {
+  padding-top: 25px;
+  /* font-size: 2.369rem; */
+  /* border-bottom: 1px solid white; */
+}
+
+.about-details {
+  padding-top: 50px;
+  /* font-size: 2.369rem; */
+}
