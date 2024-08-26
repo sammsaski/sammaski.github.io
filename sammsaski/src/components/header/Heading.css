@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Work Sans Bold';
-    src: url('../../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf')
+  font-family: "Work Sans Bold";
+  src: url("../../fonts/Work_Sans/WorkSans-ExtraBold.ttf");
 }
 
 #header-container {
-    display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: space-between;
-    align-items: end;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+  align-items: end;
 }
 
 #text {
-    color: black;
+  color: black;
 }

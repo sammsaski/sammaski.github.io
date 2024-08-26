@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./CustomCursor.css";
-import CustomCursorContext from './CustomCursorContext.ts'
+import CustomCursorContext from "./CustomCursorContext.ts";
 
 export function CustomCursor() {
   const { type } = useContext(CustomCursorContext);
@@ -27,9 +27,9 @@ export function CustomCursor() {
         mouseX - secondaryCursor.current.clientWidth / 2;
       positionRef.current.mouseY =
         mouseY - secondaryCursor.current.clientHeight / 2;
-      mainCursor.current.style.transform = `translate3d(${mouseX -
-        mainCursor.current.clientWidth / 2}px, ${mouseY -
-        mainCursor.current.clientHeight / 2}px, 0)`;
+      mainCursor.current.style.transform = `translate3d(${
+        mouseX - mainCursor.current.clientWidth / 2
+      }px, ${mouseY - mainCursor.current.clientHeight / 2}px, 0)`;
     });
 
     return () => {};
@@ -70,15 +70,14 @@ export function CustomCursor() {
   }, []);
   return (
     <div className={`cursor-wrapper ${type}`}>
-        <div className="main-cursor " ref={mainCursor}>
+      <div className="main-cursor " ref={mainCursor}>
         <div className="main-cursor-background"></div>
-        </div>
-        <div className="secondary-cursor" ref={secondaryCursor}>
+      </div>
+      <div className="secondary-cursor" ref={secondaryCursor}>
         <div className="cursor-background"></div>
-        </div>
-        ;
+      </div>
     </div>
   );
-};
+}
 
 // export default CustomCursor;
