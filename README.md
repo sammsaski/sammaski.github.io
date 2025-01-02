@@ -3,6 +3,7 @@
 My personal website is built using React.js + Bootstrap 5.
 
 # Notes
+Need a simpler design...
 
 Don't forget to run
 
